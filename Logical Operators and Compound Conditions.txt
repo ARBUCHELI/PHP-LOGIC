@@ -352,6 +352,15 @@ This example is a little silly because we’re barely including any code in the 
 
 sandwich.php
 ------------
+<?php
+include "top_bread.php";
+include "mayo.php";
+include "lettuce.php";
+echo "Four Slices of Ham, and one Fried Egg\n";
+include "bottom_bread.php";
+
+==================================================================================================================================================================
+
 
 
 
